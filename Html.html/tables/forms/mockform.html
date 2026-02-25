@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<center><h1 style="color: rgb(140, 140, 239);"><u> student Registration Form</u></h1>
+<body>
+    <fieldset style="width: 500px;  border: 5px solid black; height: 500px; background-color: lightcyan;">
+        <form action="" style="background-color: rgb(139, 153, 239);" autocomplete="off" method="post">
+            <table>
+                <tr>
+                    <td><label for="firstname">First Name</label></td>
+                    <td><input type="text" name="firstname" id="firstname" required pattern="[A-Za-z]{2,}"
+                            maxlength="30" title="provide valid name">(max length is 30)</td>
+                </tr>
+                <tr>
+                    <td><label for="lastname">Last Name</label></td>
+                    <td><input type="text" name="lastname" id="lastname" required pattern="[A-Za-z]{2,}" maxlength="30"
+                            title="provide valid last name">(max length is 30)</td>
+                </tr>
+                <tr>
+                    <td><label for="date">Date of Birth</label></td>
+                    <td><input type="date" name="date" id="date" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="phno">Phone Number</label></td>
+                    <td><input type="tel" name="phno" id="phno" required pattern="[0-9]{10}"
+                            title="provide valid 10-digit phone number"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" name="password" id="password" required></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">gender</label></td>
+                    <td><input type="radio" name="gender" id="male" value="male" required><label for="male">Male</label>
+                        <input type="radio" name="gender" id="female" value="female"><label for="female">Female</label>
+                        <input type="radio" name="gender" id="other" value="other"><label for="other">Other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="address">address</label></td>
+                    <td><textarea name="address" id="address" required></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="city">City</label></td>
+                    <td><input type="text" name="city" id="city" required maxlength="30"></td>
+                </tr>
+                <tr>
+                    <td><label for="pincode">Pincode</label></td>
+                    <td><input type="text" name="pincode" id="pincode" required pattern="[0-9]{6}"
+                            title="provide valid 6-digit pincode"></td>
+                </tr>
+                <tr>
+                    <td><label for="country">Country</label></td>
+                    <td><select name="country" id="country" required>
+                            <option value="india">India</option>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="hobbies">Hobbies</label></td>
+                    <td><input type="checkbox" name="hobbies" id="hobbies" value="drawing">drawing
+                        <input type="checkbox" name="hobbies" id="hobbies1" value="singing">singing
+                        <input type="checkbox" name="hobbies" id="hobbies2" value="dancing">dancing
+                        <input type="checkbox" name="hobbies" id="hobbies3" value="sketching">sketching <br>others
+                        <input type="text" name="other_hobbies">
+                    </td>
+                </tr>
+                <tr>
+                    <td>QUALIFICATION
+
+                    </td>
+
+                    <td>
+                        <table>
+
+                            <tr>
+                                <td align="center">sl.no</td>
+                                <td align="center">examination</td>
+                                <td align="center">board</td>
+                                <td align="center">percentage</td>
+                                <td align="center">year of passing</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>Class X</td>
+                                <td><input type="text" ></td>
+                                <td><input type="text" ></td>
+                                <td><input type="text" ></td>
+                            </tr>
+
+                            <tr>
+                                <td>2</td>
+                                <td>Class XII</td>
+                                <td><input type="text" ></td>
+                                <td><input type="text" ></td>
+                                <td><input type="text" ></td>
+                            </tr>
+
+                            <tr>
+                                <td>3</td>
+                                <td>Graduation</td>
+                                <td><input type="text"></td>
+                                <td><input type="text" ></td>
+                                <td><input type="text"></td>
+                            </tr>
+
+                        
+
+                        </table>
+                        <tr>
+                            <td>cource applied for</td>
+                            <td><label for="cource"></label>
+                            <input type="radio" name="cource" id="cource"> BSE
+                            <input type="radio" name="cource" id="cource"> MCA
+                        <input type="radio" name="cource" id="cource"> MBA</td>
+                        </tr>
+
+                    </td>
+                </tr>
+
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit">Submit</button>
+                    </td>
+                </tr>
+                
+
+
+              
+            </table>
+        </form>
+    </fieldset>
+    </center>
+</body>
+
+</html>
