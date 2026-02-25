@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            border: 2px solid black;
+            animation-name: ani ;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+
+        }
+        @keyframes ani{
+            /* to{
+                
+                background-color: orange;
+            }
+            from{
+                background-color: lightblue;
+            } */
+             0%{
+                transform: rotate(25deg);
+                background-color: lightcoral;
+             }
+             20%{
+                transform: translatex(100px);
+                background-color: lightslategray;
+            }
+            30%{
+                transform: translatey(100px);
+                background-color: lightseagreen;
+            }
+        }
+    </style>
+    <div class="ani"></div>
+    
+</body>
+</html>

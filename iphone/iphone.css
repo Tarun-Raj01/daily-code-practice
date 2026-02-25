@@ -1,0 +1,661 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    height: 200vh;
+    width: 100%;
+    /* border: 2px solid; */
+}
+
+nav {
+    /* border: 2px solid; */
+    height: 6vh;
+    position: relative;
+    background-color: #F5F5F7;
+}
+
+.uln {
+    height: inherit;
+    width: 70vw;
+    /* border: 2px solid; */
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px auto;
+}
+
+.drop {
+    height: 350px;
+    width: 100%;
+    /* border: 2px solid; */
+    background-color: #F5F5F7;
+}
+
+
+.drop {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+}
+
+.dropl:hover .drop {
+    display: block;
+
+}
+
+.dropa {
+    /* height: inherit; */
+    width: 60vw;
+    /* border: 2px solid; */
+    margin: 0px auto 0px 200px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    column-gap: 60px;
+    position: relative;
+    top: 30px;
+
+}
+
+.ula1 {
+    list-style: none;
+    font-size: large;
+    font-family: "SN Pro", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ula2 {
+    list-style: none;
+    font-size: small;
+    font-family: "SN Pro", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ula3 {
+    list-style: none;
+    font-family: "SN Pro", sans-serif;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.drops1 {
+    height: 450px;
+    width: 100%;
+    /* border: 2px solid; */
+    background-color: #F5F5F7;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+}
+
+.dropa1 {
+    /* height: inherit; */
+    width: 60vw;
+    /* border: 2px solid; */
+    margin: 0px auto 0px 200px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    column-gap: 60px;
+    position: relative;
+    top: 30px;
+}
+
+.ula4 {
+    list-style: none;
+    font-size: large;
+    font-family: "SN Pro", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.ula5 {
+    list-style: none;
+    font-size: small;
+    font-family: "SN Pro", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.dropl2:hover .drops1 {
+    display: block;
+}
+
+.ula6 {
+    list-style: none;
+    font-size: small;
+    font-family: "SN Pro", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.valentine {
+    background-color: azure;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.models {
+    height: 60vh;
+    width: 100vw;
+    /* border: 2px solid; */
+    display: flex;
+    align-items: left;
+    justify-content: left;
+
+    background-color: whitesmoke;
+    flex-direction: column;
+}
+
+.models h1 {
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+
+.image {
+    height: 500%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid; */
+}
+
+.phones {
+    height: 70%;
+    width: 1000px;
+    /* border: 2px solid black; */
+    margin-left: 5px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    scrollbar-width: none;
+
+
+
+}
+
+.phone-list {
+    /* display: flex;
+            align-items: center;
+            justify-content: space-evenly; */
+    margin: 0px 40px;
+    display: inline-block;
+
+
+
+}
+
+.im {
+    height: 80px;
+    width: 47px;
+}
+
+line.up {
+    height: 500px;
+    width: 100vw;
+    background-color: #F5F5F7;
+    /* display: flex;
+            justify-content: space-evenly; */
+    /* border: 2px solid; */
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+span {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 980px;
+    padding-top: -30px;
+}
+
+.compare {
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-left: 5px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    scrollbar-width: none;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+
+}
+
+/* .listcompare {
+            display: inline-block;
+            margin: 0px 20px;
+            padding-left: 20px;
+        } */
+
+.ia {
+    height: 344px;
+    width: 346px;
+    border-radius: 20px;
+}
+
+.info {
+    width: 13px;
+    /* Set equal width and height */
+    height: 13px;
+    /* Set equal width and height */
+    /* background-color: red; */
+    /* Add a background color to fill the circle */
+    border-radius: 50%;
+
+    /* This property makes the square div a circle */
+}
+
+.button {
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    margin-top: 5px;
+    gap: 5px;
+
+}
+
+.textinside {
+    text-align: center;
+}
+
+.takealook {
+    height: 660px;
+    width: 100vw;
+    background-color: #F5F5F7;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.box {
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    padding-left: 100px;
+    scrollbar-width: none;
+    padding-top: 30px;
+    background-color: whitesmoke;
+
+}
+
+
+
+
+.photo1 {
+    width: 350px;
+    /* IMPORTANT */
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    flex-shrink: 0;
+    /* IMPORTANT */
+    color: black;
+    font-size: 30px;
+    box-sizing: border-box;
+    transition: transform 0.1s ease;
+    display: grid;
+    align-content: space-evenly;
+
+
+}
+
+.photo2 {
+    width: 350px;
+    /* IMPORTANT */
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    flex-shrink: 0;
+    /* IMPORTANT */
+    color: black;
+    font-size: 30px;
+    box-sizing: border-box;
+    transition: transform 0.1s ease;
+    display: grid;
+    align-content: space-evenly;
+}
+
+.photo3 {
+    width: 350px;
+    /* IMPORTANT */
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    flex-shrink: 0;
+    /* IMPORTANT */
+    color: black;
+    font-size: 30px;
+    box-sizing: border-box;
+    transition: transform 0.1s ease;
+    display: grid;
+    align-content: space-evenly;
+}
+
+.photo4 {
+    width: 350px;
+    /* IMPORTANT */
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    flex-shrink: 0;
+    /* IMPORTANT */
+    color: black;
+    font-size: 30px;
+    box-sizing: border-box;
+    transition: transform 0.1s ease;
+    display: grid;
+    align-content: space-evenly;
+}
+
+.photo5 {
+    width: 350px;
+    /* IMPORTANT */
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    flex-shrink: 0;
+    /* IMPORTANT */
+    color: black;
+    font-size: 30px;
+    box-sizing: border-box;
+    transition: transform 0.1s ease;
+    display: grid;
+    align-content: space-evenly;
+}
+
+.photo6 {
+    width: 350px;
+    /* IMPORTANT */
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    flex-shrink: 0;
+    /* IMPORTANT */
+    color: black;
+    font-size: 30px;
+    box-sizing: border-box;
+    transition: transform 0.1s ease;
+    display: grid;
+    align-content: space-evenly;
+}
+
+/* .photo12{
+    display: grid;
+    grid-template-rows: 240px 240px;
+    gap: 10px;
+    box-sizing: content-box;
+    max-width: 350px;
+    
+ */
+
+/* } */
+/* .photo12{
+    display: grid;
+    grid-template-rows: 240px 240px;
+    gap: 10px;
+    box-sizing: border-box;
+    max-width: 350px;
+} */
+
+.getto {
+    height: 800px;
+    width: 100vw;
+    background-color: #F5F5F7;
+    /* padding-top: 100px; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* border: 2px solid red; */
+    margin-top: 100px;
+}
+
+.inova {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    padding-left: 100px;
+    padding-top: 50px;
+
+
+}
+
+.inova1 {
+    height: 650px;
+    min-width: 350px;
+    background-image: url(https://www.apple.com/v/iphone/home/ci/images/overview/consider/innovation__ce13717o3vhy_small_2x.jpg);
+    background-size: cover;
+    
+    border-radius: 20px;
+    margin: 0px auto;
+    font-size: 30px;
+
+  
+    
+}
+
+.inova2 {
+    height: 650px;
+    min-width: 350px;
+    background-image: url(https://www.apple.com/v/iphone/home/ci/images/overview/consider/camera__f389jji00bee_small_2x.jpg);
+    border-radius: 20px;
+    margin: 0px auto;
+    font-size: 30px;
+    background-size: cover;
+}
+
+
+.inova3 {
+    height: 650px;
+    min-width: 350px;
+    background-image: url(https://www.apple.com/v/iphone/home/ci/images/overview/consider/chip__6hy1uruuluaa_small_2x.jpg);
+    border-radius: 20px;
+    margin: 0px auto;
+    font-size: 30px;
+    background-size: cover;
+}
+
+.inova4 {
+    height: 650px;
+    min-width: 350px;
+    background-image: url(https://www.apple.com/in/iphone/home/images/overview/consider/ios__02vczxaa3siu_small_2x.jpg);
+     background-size: cover;
+    border-radius: 20px;
+    margin: 0px auto;
+    font-size: 30px;
+}
+
+.inova5 {
+    height: 650px;
+    min-width: 350px;
+    background-image: url(https://www.apple.com/v/iphone/home/ci/images/overview/consider/environment__ct6r1r1bigsy_small_2x.jpg);
+    border-radius: 20px;
+    margin: 0px auto;
+    font-size: 30px;
+    background-size: cover;
+}
+
+.inova6 {
+    height: 650px;
+    min-width: 350px;
+    background-image: url(https://www.apple.com/v/iphone/home/ci/images/overview/consider/privacy__dd7zepyil6gm_small_2x.jpg);
+    border-radius: 20px;
+    margin: 0px auto;
+    font-size: 30px;
+    background-size: cover;
+}
+
+.inova7 {
+    height: 650px;
+    min-width: 350px;
+    background-image: url(https://www.apple.com/in/iphone/home/images/overview/consider/safety__faiti3j3g0mm_small_2x.jpg);
+    border-radius: 20px;
+    margin: 0px auto;
+    font-size: 30px;
+    background-size: cover;
+}
+.essential {
+    height: 800px;
+    width: 100vw;
+    /* background-color: whitesmoke; */
+    margin-top: 50px;
+
+    /* border: 2px solid red; */
+}
+.iphoneasseseries{
+    height: 650px;
+    margin-top: 50px;
+   /* width: 100%; */
+   display: flex;
+   margin-left: 80px;
+   align-items: space-evenly;
+   /* background-color: green; */
+}
+.iphoneacce1 {
+    height: 600px;
+    width: 550px;
+    border-radius: 70px;
+    /* margin: 20px; */
+    margin-left: 30px;
+    margin-top: 20px;
+     background-image: url(https://www.apple.com/v/iphone/home/ci/images/overview/essentials/accessories__ek0uv892lg6e_medium_2x.jpg);
+    background-size: cover;
+    background-position: center 150px;
+    background-repeat: no-repeat;
+    border-radius: 70px;
+    background-size: 570px;
+    background-color:whitesmoke;
+    
+ 
+    
+}
+.airtag {
+      height: 600px;
+    width: 550px;
+    border-radius: 70px;
+    /* margin: 20px; */
+    margin-left: 30px;
+    margin-top: 20px;
+     background-image: url(https://www.apple.com/v/iphone/home/ci/images/overview/essentials/airtag_accessories__gcg7wtcpr2y6_large_2x.jpg);
+    background-size: cover;
+    background-position: center 235px;
+    background-repeat: no-repeat;
+    border-radius: 70px;
+    background-size: 570px;
+    background-color:whitesmoke;
+   
+}
+.fonttext {
+    height: 50px;
+    width: 350px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+   
+    position: relative;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+
+.fonttext2 {
+    height: 150px;
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+}
+.fonttext2 p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+   
+    padding-left: 12px;
+
+}
+.significant-others {
+    height: 800px;
+    width: 100%;
+    border: 2PX solid;
+    /* background-color: #F5F5F7; */
+    /* margin-top: 120px; */
+}
+.mac{
+    margin-top: 50px;
+    margin-left: 100px;
+    height: 620PX;
+    width: 1100px;
+    border-radius: 70px;
+    background-color:whitesmoke;
+    display: flex;
+    border: 2PX solid black;
+    /* display: inline; */
+
+}
+.MAC1 {
+    height: 500PX;
+    width: 300px;
+    padding-left: 900px;
+    background-color: aquamarine;
+     border: 2PX solid black;
+    margin: 60px 20px 0px 0px;
+   
+  
+}
+.Mac2 {
+    height: 500PX;
+    width: 550PX;
+    background-color: aquamarine;
+    border: 2PX solid black;
+    margin: 60px 0px 0px 20px;
+   
+  
+}
+
+
+
+

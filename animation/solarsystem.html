@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+
+
+        }
+
+        .venus {
+            height: 400px;
+            width: 400px;
+            border: 2px solid white;
+            border-radius: 50%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+              animation-name: rotate;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+           
+
+        }
+        .earth {
+             height: 600px;
+            width: 600px;
+            border: 2px solid white;
+            border-radius: 50%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+         
+        }
+        .ear{
+            height: 100px;
+            width: 100px;
+            border: 2px solid;
+            border-radius: 50%;
+            background-color: blue;
+            position: absolute;
+            left: 300px;
+          
+
+        }
+
+        .venu{
+            height: 50px;
+            width: 50px;
+            border: 2px solid;
+            border-radius: 50%;
+            background-color: greenyellow;
+            position: absolute;
+            left: 370px;
+            animation-name: rotate;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            position: absolute;
+
+        }
+
+        .mercury {
+            height: 200px;
+            width: 200px;
+            border: 2px solid white;
+            border-radius: 50%;
+            animation: rotate;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            position:absolute;
+
+        }
+
+        section {
+            height: 50px;
+            width: 50px;
+            border: 2px solid;
+            border-radius: 50%;
+            background-color: aqua;
+            position: absolute;
+
+            left: 150px;
+
+
+
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+
+        }
+    </style>
+
+    <body>
+
+
+        <div>
+            <div class="earth">
+                <section class="ear"></section>
+                   <div class="venus">
+                <section class="venu">
+
+                </section>
+                <div class="mercury">
+                    <section>
+
+                    </section>
+                </div>
+
+
+            </div>
+
+            </div>
+         
+
+        </div>
+
+
+
+    </body>
+
+</html>

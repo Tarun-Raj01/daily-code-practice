@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        section {
+            display: flex;
+            border: 2px solid black;
+            height: 200px;
+            width: 600px;
+            justify-content: space-around;
+            align-items: center;
+            background-color: lightgoldenrodyellow;
+            flex-grow: 2;
+        }
+
+        .hi {
+            border: 2px solid red;
+            height: 100px;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: lightgrey;
+            flex-grow: 1;
+            flex-shrink: 200px;
+            flex-basis: 150px;
+        }
+
+        .hello {
+            border: 2px solid green;
+            height: 100px;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 3;
+        }
+
+        .namaskara {
+            border: 2px solid blue;
+            height: 100px;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        </style>
+
+        <section>
+            <div class="hi">hin</div>
+            <div class="hello">hello</div>
+            <div class="namaskara">namaskara</div>
+        </section>
+</body>
+</html>

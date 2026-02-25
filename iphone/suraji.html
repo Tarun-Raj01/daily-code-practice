@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        main {
+            height: 100vh;
+            width: 100vw;
+            /* border: 2px solid; */
+        }
+
+        nav {
+            /* border: 2px solid; */
+            height: 9vh;
+            position: relative;
+            background-color: #F5F5F7;
+        }
+
+        .uln {
+            height: inherit;
+            width: 70vw;
+            /* border: 2px solid; */
+            display: flex;
+            list-style: none;
+            align-items: center;
+            justify-content: space-around;
+            margin: 0px auto;
+        }
+
+        .drop {
+            height: 350px;
+            width: 100vw;
+            /* border: 2px solid; */
+            background-color: #F5F5F7;
+        }
+
+
+        .drop {
+            position: absolute;
+            left: 0;
+            top: 100%;
+            display: none;
+        }
+
+        .dropl:hover .drop {
+            display: block;
+
+        }
+
+        .dropa {
+            /* height: inherit; */
+            width: 60vw;
+            /* border: 2px solid; */
+            margin: 0px auto 0px 200px;
+            display: flex;
+            /* justify-content: space-evenly; */
+            column-gap: 60px;
+            position: relative;
+            top: 30px;
+
+        }
+
+        .ula1 {
+            list-style: none;
+            font-size: large;
+            font-family: "SN Pro", sans-serif;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .ula2 {
+            list-style: none;
+            font-size: small;
+            font-family: "SN Pro", sans-serif;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .ula3 {
+            list-style: none;
+            font-family: "SN Pro", sans-serif;
+            font-size: small;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .drops1 {
+            height: 450px;
+            width: 100vw;
+            /* border: 2px solid; */
+            background-color: #FAFAFC;
+            position: absolute;
+            left: 0;
+            top: 100%;
+            display: none;
+        }
+
+        .dropa1 {
+            /* height: inherit; */
+            width: 60vw;
+            /* border: 2px solid; */
+            margin: 0px auto 0px 200px;
+            display: flex;
+            /* justify-content: space-evenly; */
+            column-gap: 60px;
+            position: relative;
+            top: 30px;
+        }
+
+        .ula4 {
+            list-style: none;
+            font-size: large;
+            font-family: "SN Pro", sans-serif;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+        }
+
+        .ula5 {
+            list-style: none;
+            font-size: small;
+            font-family: "SN Pro", sans-serif;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+        }
+
+        .dropl2:hover .drops1 {
+            display: block;
+        }
+
+        .ula6 {
+            list-style: none;
+            font-size: small;
+            font-family: "SN Pro", sans-serif;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .divdd {
+            height: 35px;
+            width: 100vw;
+            /* border: 0.5px solid; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #F5F5F7;
+            /* position: relative;
+            top: 2px; */
+        }
+
+        .divip {
+            height: 130px;
+            width: 100vw;
+            /* position: relative; */
+            /* border: 2px solid; */
+        }
+
+        .hip {
+            /* position: relative; */
+            margin: 30px 55vw 30px 100px;
+            font-size: 90px;
+            font-family: "SN Pro", sans-serif;
+        }
+
+        .slidem {
+            /* border: 2px solid; */
+            height: 190px;
+            width: 100wv;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .slideimd {
+            /* border: 2px solid; */
+            height: 120px;
+            width: 900px;
+            white-space: nowrap;
+            overflow-x: scroll;
+            scrollbar-width: none;
+        }
+
+        .imm {
+            /* border: 2px solid; */
+            display:inline-block;
+            margin:0px 20px 0px 40px ;
+        }
+        .imgs{
+            height: 80px;
+            width: 80px;
+            align-items: center;
+        }
+        .immt{
+            display:inline-block;
+             margin:0px 36px ;
+        }
+        .iphonem{
+            height: 320px;
+            width: 100vw;
+            /* border: 2px solid; */
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <nav>
+            <ul class="uln">
+
+                <li><i class="fa-brands fa-apple"></i>
+
+                </li>
+                <li class="dropl">Store
+                    <section class="drop">
+                        <article class="dropa">
+                            <ul class="ula1">
+                                <li style="font-size:small; color: #6E7BAC;">shop</li><br>
+                                <li><b>Shop The Latest</b></li>
+                                <li><b>Mac</b></li>
+                                <li><b>iPad</b></li>
+                                <li><b>iPhone</b></li>
+                                <li><b>Apple Watch</b></li>
+                                <li><b>Airpodes</b></li>
+                                <li><b>Accessories</b></li>
+                            </ul>
+                            <ul class="ula2">
+                                <li style="font-size:small;color: #6E7BAC;">Quick Links</li><br>
+                                <li>Find a store</li>
+                                <li>Order Status</li>
+                                <li>Apple Trade In</li>
+                                <li>Ways To Buy</li>
+                                <li>Personal Setup</li>
+                            </ul>
+                            <ul class="ula3">
+                                <li style="color: #6E7BAC;">Shop Special Storea</li><br>
+                                <li>Education</li>
+                                <li>Business</li>
+                            </ul>
+                        </article>
+                    </section>
+                </li>
+                <li class="dropl2">Mac
+                    <section class="drops1">
+                        <article class="dropa1">
+                            <ul class="ula4">
+                                <li style="font-size:small; color: #6E7BAC;">Explor Mac</li><br>
+                                <li><b>Explore All Mac</b></li>
+                                <li><b>MacBook Air</b></li>
+                                <li><b>MacBook Pro</b></li>
+                                <li><b>iMac</b></li>
+                                <li><b>Mac mini</b></li>
+                                <li><b>Mac Studio</b></li>
+                                <li><b>Mac Pro</b></li>
+                                <li><b>Display</b></li>
+                                <li style="font-size: small;">Compare</li>
+                                <li style="font-size: small;">Switch from PC to Mac</li>
+                            </ul>
+                            <ul class="ula5">
+                                <li style="font-size:small; color: #6E7BAC;">Shop MAc</li><br>
+                                <li>Shop Mac</li>
+                                <li>Mac accessories</li>
+                                <li>Ways to Buy</li>
+                                <li>Personal Setup</li>
+                            </ul>
+                            <ul class="ula6">
+                                <li style="color: #6E7BAC;">More from Mac</li><br>
+                                <li>Mac Support</li>
+                                <li>Apple Care</li>
+                                <li>macOS Tatoe</li>
+                                <li>Apple Intelligance</li>
+                                <li>Apps by Apple</li>
+                                <li>Apple Creator Studio</li>
+                                <li>Better With Iphone</li>
+                                <li>iCloud+</li>
+                                <li>Mac for Business</li>
+                                <li>Education</li>
+                            </ul>
+                        </article>
+                    </section>
+                </li>
+                <li>iPad</li>
+                <li>iPhone</li>
+                <li>Watch</li>
+                <li>AirPods</li>
+                <li>TV & Home</li>
+                <li>Entertainment</li>
+                <li>Accessories</li>
+                <li>Support</li>
+                <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li><i class="fa-solid fa-bag-shopping"></i></li>
+            </ul>
+        </nav>
+        <div class="divdd">
+            Spread the cost of your new iPhone interest-free with the Flexible Finance Account.
+        </div>
+        <div class="iphonem">
+            <div class="divip">
+            <h1 class="hip">iPhone</h1>
+         </div>
+         <div class="slidem">
+            <div class="slideimd">
+                <ul>
+                    <li class="imm"><img
+                            src="https://www.apple.com/in/iphone/home/images/overview/chapternav/nav_iphone_17pro__d60uog2c064i_large_2x.png"
+                            alt="" class="imgs"></li>
+                    <li class="imm"><img src="https://www.apple.com/v/iphone/home/ci/images/overview/chapternav/nav_iphone_air__bbj6j2c39efm_large_2x.png" alt="" class="imgs"></li>
+                    <li class="imm"><img src="https://www.apple.com/in/iphone/home/images/overview/chapternav/nav_iphone_17__ffxyxejeezqm_large_2x.png" alt="" class="imgs"></li>
+                    <li class="imm"><img src="https://www.apple.com/in/iphone/home/images/overview/chapternav/nav_iphone_16__kcscr25z9num_large_2x.png" alt="" class="imgs"><br></li>
+                    <li class="imm"><img src="https://www.apple.com/in/iphone/home/images/overview/chapternav/nav_iphone_16e__3qxl86zrk0yq_large_2x.png" alt="" class="imgs"></li>
+                    <li class="imm"><img src="https://www.apple.com/v/iphone/home/ci/images/overview/chapternav/nav_compare__fka067e4fgq6_large_2x.png" alt=""  class="imgs"></li>
+                    <li class="imm"><img src="https://www.apple.com/v/iphone/home/ci/images/overview/chapternav/nav_accessories__e5zgfl9e0vwy_large_2x.png" alt="" class="imgs"></li>
+                    <li class="imm"><img src="https://www.apple.com/in/iphone/home/images/overview/chapternav/nav_shop_alt__dur38g1c4ii6_large_2x.png" alt="" class="imgs"></li>
+                    <li class="imm"><img src="https://www.apple.com/v/iphone/home/ci/images/overview/chapternav/nav_ios__efygxkc3oqs2_large_2x.png" alt="" class="imgs"></li>
+                </ul>
+                <ul>
+                    <li class="immt" style="margin-left:34px ;">iPhone 17 pro</li>
+                    <li class="immt">i Phone Air</li>
+                    <li class="immt">iPhone 17</li>
+                    <li class="immt">iPhone 16</li>
+                    <li class="immt">iPhone 16e</li>
+                    <li class="immt">Compare</li>
+                    <li class="immt">Accessories</li>
+                    <li class="immt">Shop iPhone</li>
+                    <li class="immt">iOS</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </main>
+</body>
+
+</html>
